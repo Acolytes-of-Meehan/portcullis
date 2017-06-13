@@ -14,7 +14,7 @@ Stretch goals :
 
 To install: 
 
-make install is in the process of being built. Run make instead and run the sprd executable. Add spr.h to your PATH variable and include it when you need to call secure_bind(3) or secure_close(3). Check the daemon status through syslog. Read our paper (portcullis.pdf) to get full background and understanding of project and scope.
+make install is in the process of being built. Run make install in its current state. Add spr.h to your PATH variable and include it when you need to call secure_bind(3) or secure_close(3). Check the daemon status through syslog. Read our paper (in the report section) to get full background and understanding of project and scope.
 
 Documentation :
 
