@@ -135,9 +135,13 @@ IDs in the range 456-470 along with the user ID 433 and all groups with group ID
 345-350 along with the group ID 220.
 Additionally, the user and group sets can be empty. For example, the following reservation lines
 are all valid:
+
 3333:1234:
+
 3333::4567
+
 3333::
+
 Finally, it is acceptable for a port to have more than one relevant reservation line in the
 configuration file. As long as a user has a user ID or group ID that is defined in at least one
 reservation in the configuration, the user will have permission to bind to the port with
