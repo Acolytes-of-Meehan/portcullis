@@ -1,22 +1,22 @@
 # secure-port-reservation
 portcullis
 
-A secure TCP/IP port reservation tool for Linux and FreeBSD.
+A secure TCP/IP port reservation tool for Linux and FreeBSD. Portcullis adds a Unix style permissioning system to TCP/IP ports so to ensure that only authorized users can gain access to reserved ports.
 
 TODO :
 
-    Finish FreeBSD compatibility in sections marked FreeBSD incompatible in secure_bind.c and sprd.c (add preprocessor directives to change struct ucred).
-    Add make install and the init scripts
-    Update Documentation
-    Testing all cases
+1. Finish FreeBSD compatibility in sections marked FreeBSD incompatible in secure_bind.c and sprd.c (add preprocessor directives to change struct ucred).
+2. Add make install and the init scripts
+3. Update Documentation
+4. Testing all cases
 
 Stretch goals :
 
-    Add support for UDP ports
+1. Add support for UDP ports
 
 To install:
 
-make install is in the process of being built. Run make install in its current state. Add spr.h to your PATH variable and include it when you need to call secure_bind(3) or secure_close(3). Check the daemon status through syslog. Read our paper (in the report section) to get full background and understanding of project and scope.
+make install is in the process of being built. Run make install in its current state. Add spr.h to your PATH variable and include it when you need to call secure_bind(3) or secure_close(3). Check the daemon status through syslog. Read our paper (in the report section) to get full background and understanding of project and scope. The instructions in the daemon documentation are not currently accurate and are being built. To run any tests, move the proper test file out of the test directory into the main portcullis directory and make the test.
 
 Documentation :
 
