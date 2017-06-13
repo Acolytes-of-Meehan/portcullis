@@ -136,7 +136,7 @@ IDs in the range 456-470 along with the user ID 433 and all groups with group ID
 Additionally, the user and group sets can be empty. For example, the following reservation lines
 are all valid:
 
-3333:\1234:
+3333: 1234:
 
 3333::4567
 
