@@ -134,7 +134,8 @@ defines a reservation on port 3416 and all ports in the range 3500-3700 for all 
 IDs in the range 456-470 along with the user ID 433 and all groups with group IDs in the range
 345-350 along with the group ID 220.
 Additionally, the user and group sets can be empty. For example, the following reservation lines
-are all valid:3333:1234:
+are all valid:
+3333:1234:
 3333::4567
 3333::
 Finally, it is acceptable for a port to have more than one relevant reservation line in the
